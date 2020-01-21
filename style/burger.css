@@ -1,0 +1,85 @@
+#menuToggle:checked + .main_menu{
+    display: block;
+    position: absolute;
+    background: white;
+    width: 30%;
+    margin-left: -30px;
+    padding-left: 28px;
+}
+.main_menu li{
+	float: none;
+	display:block;
+}
+.main_menu{
+	display: none;
+}
+.submenu {
+	display:none;
+}
+nav{
+	margin: 5px 5px;
+	display:inline-block;
+}
+.main-menu > li{
+	display:block;
+}
+header > form{
+	display:none;
+}
+header{
+	display:none;
+}
+input[type="checkbox"]{
+	display:none;
+}
+.menu_icon {
+  cursor: pointer;
+  margin: 0 auto;
+  padding-left: 1.25em;
+  position: relative;
+  width: 40px;
+  height: 40px;
+}
+.menu-global {
+  backface-visibility: hidden;
+  position: absolute;
+  left: 0;
+  border-top: 8px solid black;
+  width: 100%;
+  transition: 0.55s;
+}
+.menu-top {
+  top: 0;
+}
+.menu-middle {
+  top: 18px;
+}
+.menu-bottom {
+  top: 36px;
+}
+.menu-top-click {
+  backface-visibility: hidden;
+  top: 15px;
+  transform: rotate(50deg);
+  transition: 0.55s 0.5s;
+}
+.menu-middle-click {
+  opacity: 0;
+}
+.menu-bottom-click {
+  backface-visibility: hidden;
+  top: 15px;
+  transform: rotate(-410deg);
+  transition: 0.55s 0.5s;
+}
+.main_page{
+	display:none;
+}
+.prc, .example, .map{
+	display:none;
+}
+.menu_icon > img {
+	width:100vw;
+	height:200px;
+	margin:0;
+}
